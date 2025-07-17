@@ -1,0 +1,2 @@
+
+Investigar plataformas de gestión de apoyo a las metodologías ágiles para administrar proyectos. Filtrar para aquellas que tengan planes gratuitos. No es necesario crear cuenta en alguna (de momento), simplemente recabar información acerca de las funcionalidades provistas por las mismas.
