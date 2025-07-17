@@ -1,3 +1,4 @@
+# Ejercicios de la clase 11/7/25 - Bucles
 import random
 def ejercicio1():
     for i in range(1,11):
