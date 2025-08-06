@@ -64,6 +64,9 @@ def consigna6():
             valor['vidas'] += 1
         print(f'Jugador {clave}\nVidas: {valor['vidas']}\nPuntos: {valor['puntos']}\n')
 
+
+# Ejercicios combinados
+#  
 def hogwarts1():
     hechizos_basicos = ['lumos', 'alohomora', 'wingardium leviosa']
     eleccion = input('Que hechizo desea lanzar?\n-> ')
