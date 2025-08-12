@@ -62,7 +62,7 @@ def consigna6():
         valor['puntos'] += 50
         if valor['vidas'] < 3:
             valor['vidas'] += 1
-        print(f'Jugador {clave}\nVidas: {valor['vidas']}\nPuntos: {valor['puntos']}\n')
+        print(f'Jugador {clave}\nVidas: {valor["vidas"]}\nPuntos: {valor["puntos"]}\n')
 
 
 # Ejercicios combinados
@@ -98,8 +98,8 @@ def hogwarts4():
 
     for nombre, datos in estudiantes.items():
         promedio = sum(datos['examenes'])/len(datos['examenes'])
-        suficientes_hechizos = f'Aprendio mas de 3 ({len(datos['hechizos_aprendidos'])})' if len(datos['hechizos_aprendidos']) > 3 else f'Solo aprendio {len(datos['hechizos_aprendidos'])}'
+        suficientes_hechizos = f'Aprendio mas de 3 ({len(datos["hechizos_aprendidos"])})' if len(datos['hechizos_aprendidos']) > 3 else f'Solo aprendio {len(datos["hechizos_aprendidos"])}'
         es_graduado = 'ES GRADUADO' if datos['puntos'] > 250 else 'NO ES GRADUADO'
-        print(f'Alumno {nombre}\nPromedio: {promedio}\nHechizos: {suficientes_hechizos}\nPuntos: {datos['puntos']}\n{es_graduado}\n')
+        print(f'Alumno {nombre}\nPromedio: {promedio}\nHechizos: {suficientes_hechizos}\nPuntos: {datos["puntos"]}\n{es_graduado}\n')
 
 hogwarts4()
