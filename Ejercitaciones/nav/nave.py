@@ -33,6 +33,11 @@ while running:
     if keys[pygame.K_RIGHT]:
         x += vel
 
+    
+    # # Limitar la nave dentro de la pantalla
+    # nave_x = max(0, min(nave_x, 640-50)) # limitar en eje X
+    # nave_y = max(0, min(nave_y, 360-50)) # limitar en eje Y
+
     # Dibujo
     screen.blit(bg, (0,0))         # primero el fondo
     screen.blit(nave, (x,y))       # luego la nave
